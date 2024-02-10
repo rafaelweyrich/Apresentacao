@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
     
@@ -30,7 +30,10 @@
     background: var(--bg-url) no-repeat top center/cover;
     height: 100vh;
     overflow: hidden;
-    
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+   
   }
   
   body * {
@@ -41,8 +44,9 @@
   #container {
     width: 100%;
     max-width: 588px;
-    margin: 56px auto 0px;
+    margin:auto;
     padding: 0 24px;
+
   }
   
   /* profile */
@@ -57,7 +61,7 @@
   #profile p {
     font-weight: 500;
     line-height: 24px;
-    margin-top: 8px;
+    margin-top: 50px;
   }
   
   /* switch */
